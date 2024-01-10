@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.form_container{
+    width: 80%;
+    margin: auto;
+    text-align: center;/*가운데 정렬*/
+    margin-top: 5rem;
+    
+}
+.page_title{
+    font-size: 35px;
+    margin-bottom: 3rem;
+}
+.name_tel_box{
+    margin-bottom: 7px;
+}
+.name_tel_box input{
+    width: 30%;
+    height: 40px;
+    padding-left: 10px;
+}
+.inrow_container{
+    justify-content: center;
+}
+.inrow_container input,textarea{
+    display: block;
+    margin: auto;
+    margin-bottom: 7px;
+    width: 60%;
+    height: 40px;
+    padding-left: 10px;
+}
+.inrow_container textarea{
+    padding-top: 10px;
+    height: 7rem;
+}
+.btn{
+    margin-top: 7%;
+    background-color: #3EC188;
+    color: white;
+    border-color: #A3ED80;
+    padding: 1rem 3.5rem;
+}
+
+@media screen and (min-width:500px){
+    .form_container{
+        max-width: 2000px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .form_container{
+        min-width: 100px;/*최소 사이즈*/
+        margin-top: 5rem;
+    }
+    .name_tel_box{
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+    .name_tel_box input{
+        display: block;
+        margin: auto;/*가운데 정렬*/
+        width: 80%;
+        margin-top: 10px;
+    }
+    
+    .inrow_container input,textarea{
+        margin-bottom: 10px;
+        width: 80%;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+}
